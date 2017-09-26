@@ -1,1 +1,50 @@
-/* You can add global styles to this file, and also import other style files */
+
+body{margin: 0}
+
+.items{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.info{
+  padding: 0px 50px 0px 50px;
+}
+
+.item{
+  width: 25%;
+}
+
+.link{
+  text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
+
+  .item {
+    width: 50%;
+  }
+}
+
+
+@media only screen and (max-width: 900px) {
+
+  .item{
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+
+  .item{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+
+  .item{
+    width: 100%;
+  }
+}
